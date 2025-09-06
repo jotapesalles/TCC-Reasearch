@@ -1,1 +1,0 @@
-Este diretório contém o download dos artigos fichados
