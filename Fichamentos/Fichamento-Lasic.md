@@ -1,6 +1,5 @@
-
 # Assessing the Efficiency of Java Virtual Threads in Database-Driven Server Applications
-Lasić, L.; Beronić, D.; Mihaljević, B.; Radovan, A. "Assessing the Efficiency of Java Virtual Threads in Database-Driven Server Applications".
+Lašić, Luka; Beronić, Dora; Mihaljević, Branko; Radovan, Aleksander. “Assessing the Efficiency of Java Virtual Threads in Database-Driven Server Applications” in 47th MIPRO ICT and Electronics Convention (MIPRO), pp. 2045–2050, 2024. doi: [10.1109/MIPRO60963.2024.10569754](https://doi.org/10.1109/MIPRO60963.2024.10569754).
 
 ## 1. Fichamento de Conteúdo
 
@@ -8,20 +7,15 @@ O artigo examina o impacto das _Virtual Threads_ (VTs) do Java em aplicações d
 
 ## 2. Fichamento Bibliográfico
 
-* _Modelo Thread-per-request_: Arquitetura onde cada requisição é processada por uma thread dedicada. Com threads tradicionais, o custo de criação limita a escalabilidade; VTs resolvem esse gargalo (página 2).
-
-* _Continuation_: Estrutura que representa o estado de execução de uma VT, permitindo pausar e retomar sua execução, o que viabiliza o desacoplamento eficiente das carrier threads(página 5).
-
-* Metodologia de _Benchmark_: Aplicação RESTful implementada em duas versões (threads tradicionais e VTs), realizando operações CRUD em bancos de dados com latência média medida sob carga de requisições/segundo (página 8).
+* _Modelo Thread-per-request_: arquitetura onde cada requisição é processada por uma thread dedicada. Com threads tradicionais, o custo de criação limita a escalabilidade; VTs resolvem esse gargalo (página 2).
+* _Continuation_: estrutura que representa o estado de execução de uma VT, permitindo pausar e retomar sua execução, o que viabiliza o desacoplamento eficiente das carrier threads(página 5).
+* Metodologia de _Benchmark_: aplicação RESTful implementada em duas versões (threads tradicionais e VTs), realizando operações CRUD em bancos de dados com latência média medida sob carga de requisições/segundo (página 8).
 
 ## 3. Fichamento de Citações
 
 * _"Virtual Threads represent a contemporary structured concurrency model in Java Virtual Machine (JVM) seeking to increase the performance of multi-threaded Java applications by optimizing the utilization of the operating system (OS) resources."_ 
 * _"The creation of Java threads significantly leans on the operating system (OS) kernel threads, making them inherently heavyweight."_ 
-
 * _"When the Virtual Thread gets blocked, the JVM releases the OS Thread, thereby allowing it to be used by another Virtual Thread instead of idly waiting for a resource to be unblocked."_
-
 * _"Throughout the experiments, a consistent pattern of performance enhancement was observed with the introduction of Virtual Threads, underscoring their potential benefits."_ 
-
 * _"Synthesizing observations from both applications using relational and non-relational database systems, Virtual Threads consistently demonstrate superior performance over traditional threads."_ 
 
