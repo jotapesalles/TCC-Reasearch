@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage{float} 
+\usepackage[brazil]{babel}
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X} % <-- modified
+\usepackage[utf8]{inputenc}  
+\usepackage[inline]{enumitem}
+\usepackage{tcolorbox}
+
+
+%%%%%%%%%%%%%%%%% Pacotes para inserção de algoritmos - BEGIN
+\usepackage[ruled,lined]{algorithm2e}
+
+
+% Pacote para a definição de novas cores
+\usepackage{xcolor}
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+%\definecolor{oldmauve}{rgb}{0.4, 0.19, 0.28}
+
+\usepackage{listings}
+\lstset{
+    language=Java,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{jpurple}\bfseries,
+    stringstyle=\color{red},
+    commentstyle=\color{verde},
+    morecomment=[s][\color{blue}]{/**}{*/},
+    extendedchars=true,
+    showspaces=false,
+    showstringspaces=false,
+    numbers=left,
+    numberstyle=\tiny,
+    breaklines=true,
+    backgroundcolor=\color{white!10},
+    breakautoindent=true,
+    captionpos=b,
+    xleftmargin=0pt,
+    tabsize=2
+}
+%%%%%%%%%%%%%%%%% Pacotes para inserção de algoritmos - END
+
+     
+\sloppy
+
+\title{Adoção e Uso de Virtual Threads em Projetos Open-Source Java: Um Estudo Empírico}
+
+\author{João Paulo de Sales Pimenta\inst{1} }
+
+\address{Instituto de Ciências Exatas e Informática (ICEI) \\ Pontifícia Universidade Católica de Minas Gerais (PUC Minas) \\
+Engenharia de Software -- Campus Lourdes (Praça da Liberdade)\\
+Rua Alvarenga Peixoto, 159 -- Bairro Lourdes -- Belo Horizonte -- MG -- Brasil\\
+CEP: 30180-120
+  \email{joao.pimenta.1433569@sga.pucminas.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+  This meta-paper describes the style to be used in articles and short papers
+  for SBC conferences. For papers in English, you should add just an abstract
+  while for the papers in Portuguese, we also ask for an abstract in
+  Portuguese (``resumo''). In both cases, abstracts should not have more than
+  10 lines and must be in the first page of the paper.
+\end{abstract}
+     
+\begin{resumo} 
+  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
+  resumos de artigos para publicação nos anais das conferências organizadas
+  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
+  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
+  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
+  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
+  página do artigo.
+\end{resumo}
+
+
+\begin{tcolorbox}
+\footnotesize
+\textbf{Bacharelado em Engenharia de \emph{Software} - PUC Minas\\
+Trabalho de Conclusão de Curso (TCC)} \\
+
+\indent Orientador de conteúdo (TCC I): Danilo Maia - dqmf88@yahoo.com.br \\
+Orientador de conteúdo (TCC I): Leonardo Vilela - leonardocardoso@pucminas.br \\
+Orientador de conteúdo (TCC I): Raphael Ramos - rrdcostasi@gmail.com\\
+Orientador acadêmico (TCC I): Cleiton Tavares - cleitontavares@pucminas.br \\
+Orientador do TCC II: (A ser definido no próximo semestre)\\ \\
+Belo Horizonte, DIA de MÊS de ANO.
+\end{tcolorbox}
+
+
+\input{Sections/01_Introducao}
+% \input{Sections/02_Fundamentacao_Teorica}
+% \input{Sections/03_Trabalhos_Relacionados}
+% \input{Sections/04_Materiais_Metodos}
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+% \appendix
+% \section*{Apêndice}
+% \input{Sections/Apendice}
+
+\end{document}
