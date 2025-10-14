@@ -19,6 +19,8 @@
 
 * Navarro, Arthur; Ponge, Julien; Le Mouël, Frédéric; Escoffier, Clément. “Considerations for Integrating Virtual Threads in a Java Framework: A Quarkus Example in a Resource-Constrained Environment” in Proceedings of the 17th ACM International Conference on Distributed and Event-Based Systems (DEBS ’23), pp. 103–114, 2023. doi: [10.1145/3583678.3596895](https://doi.org/10.1145/3583678.3596895).
 
+* Pereira, B.; Carvalho, F.M. "Enabling Progressive Server-Side Rendering for Traditional Template Engines with Java Virtual Threads". Software 2025, 4, 20. doi: [10.3390/SOFTWARE4030020](https://doi.org/10.3390/software4030020).
+
 * Rosà, Andrea; Basso, Matteo; Bohnhoff, Leonardo; Binder, Walter. “Automated Runtime Transition between Virtual and Platform Threads in the Java Virtual Machine” in 30th Asia-Pacific Software Engineering Conference (APSEC), pp. 607–611, 2023. doi: [10.1109/APSEC60848.2023.00080](https://doi.org/10.1109/APSEC60848.2023.00080).
 
 * Shafabakhsh, Ben; Lagerström, Robert; Hacks, Simon. “Evaluating the Impact of Inter-Process Communication in Microservice Architectures: A Quantitative Study” in QuASoQ 2020 — Proceedings of the 8th Workshop on Quality-Aware DevOps, CEUR-WS Vol-2767, pp. 53–60, 2020. (CEUR-WS). link: [https://ceur-ws.org/Vol-2767/07-QuASoQ-2020.pdf](https://ceur-ws.org/Vol-2767/07-QuASoQ-2020.pdf)
@@ -28,3 +30,5 @@
 * Sirotić, Zlatko; Sovilj, Siniša; Oršulić, Matija; Pripužić, Krešimir. “Comparison of Java Virtual and Non-Virtual Threads in Parallel Programming” in 48th MIPRO ICT and Electronics Convention (MIPRO), Software and Systems Engineering Track (SSE), 2025. doi: [10.1109/SACI60582.2024.10619722](https://doi.org/10.1109/SACI60582.2024.10619722)
 
 * Wen, Jinfeng; Liu, Yi. “A Measurement Study on Serverless Workflow Services” in 2021 IEEE International Conference on Web Services (ICWS), 2021. doi: [10.1109/ICWS53863.2021.00102](https://doi.org/10.1109/ICWS53863.2021.00102).
+
+* Zimmerle, Carlos; Gama, Kiev; Castor, Fernando; Filho, José Murilo Mota, "Mining the Usage of Reactive Programming APIs: A Study on GitHub and Stack Overflow," 2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR), Pittsburgh, PA, USA, 2022, pp. 203-214, doi: [10.1145/3524842.3527966](https://doi.org/10.1145/3524842.3527966).

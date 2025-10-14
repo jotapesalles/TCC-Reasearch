@@ -2,7 +2,9 @@
 
 ## Overleaf
 
-Acesse o manuscrito no Overleaf: [Overleaf — Manuscrito do TCC (leitura)](https://www.overleaf.com/read/ptfsyywpkbpr#552961)
+Acesse o manuscrito no Overleaf:[Overleaf — Manuscrito do TCC (leitura)](https://www.overleaf.com/read/ptfsyywpkbpr#552961)
+
+Acesse o manuscrito no Overleaf até Introudução: [Overleaf — Manuscrito do TCC (leitura)](https://www.overleaf.com/read/ptfsyywpkbpr#552961)
 
 ## Descrição
 Este trabalho de conclusão de curso investiga empiricamente o impacto da introdução das *Virtual Threads* no ecossistema Java. Incorporadas como funcionalidade estável no **JDK 21**, elas foram concebidas para otimizar a utilização de recursos em aplicações **intensivas em operações de entrada e saída (I/O-bound)**, buscando aumentar o *throughput* e facilitar a construção de aplicações escaláveis.

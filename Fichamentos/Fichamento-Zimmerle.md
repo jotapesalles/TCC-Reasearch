@@ -1,0 +1,21 @@
+# Mining the Usage of Reactive Programming APIs: A Study on GitHub and Stack Overflow
+Carlos Zimmerle, Kiev Gama, Fernando Castor, José Murilo Mota Filho. "Mining the Usage of Reactive Programming APIs: A Study on GitHub and Stack Overflow." *In 19th International Conference on Mining Software Repositories (MSR ’22), May 23–24, 2022, Pittsburgh, PA, USA*. ACM, 2022. https://doi.org/10.1145/3524842.3527966.
+
+## 1. Fichamento de Conteúdo
+
+O artigo trata da complexidade de design inerente a aplicações orientadas a eventos que utilizam *callbacks* e inversão de controle, problemas que culminam no chamado *callback hell*. O paradigma de *Reactive Programming* (*RP*) surgiu para atenuar essas dificuldades, mas levanta preocupações sobre a usabilidade da *API*. Especificamente, as *Reactive Extensions* (*Rx*), uma popular família de bibliotecas *RP*, possuem um número vasto de operadores (mais de 450 variações), o que poderia impactar a facilidade de aprendizado para recém-chegados. Este estudo investiga o uso da *API Rx* nas bibliotecas *RxJava, RxJS* e *RxSwift*, utilizando a mineração de dados do *GitHub* (*GH*) e do *Stack Overflow* (*SO*). A metodologia empregada no *SO* incluiu a modelagem de 23 tópicos via *Latent Dirichlet Allocation* (*LDA*) para identificar os problemas enfrentados pelos desenvolvedores. Os resultados indicam que, apesar do tamanho, a grande maioria dos operadores *Rx* (95.2%) está em uso. *RxJava* foi a única biblioteca a ter operadores não utilizados (5.9%). A análise dos tópicos do *SO* revelou que 36.4% dos *posts* focam na *Stream Abstraction*. Além disso, os tópicos considerados mais relevantes, tanto por popularidade quanto por dificuldade, foram *Dependency Management, Introductory Questions* e *iOS Development*. O estudo conclui que os operadores mais utilizados nos projetos *open source* (*GH*) e nos tópicos relevantes do *SO* são amplamente similares, sendo majoritariamente compostos pelos operadores centrais (*core operators*) da *API*.
+
+## 2. Fichamento Bibliográfico
+
+*   *Reactive Programming* (*RP*): paradigma concebido para simplificar a construção de aplicações interativas ou reativas através de abstrações dedicadas. O *RP* é fundamentado em três conceitos principais: valores que se alteram com o tempo, rastreamento de dependências e propagação automática de atualizações.
+*   *Reactive Extensions* (*Rx*): família de bibliotecas popularmente conhecida, que implementa o *RP* para lidar com dados síncronos e assíncronos como *reactive streams*. A abstração central é o *Observable*, que permite a composição da lógica no estilo de fluxo de dados (*data flow*).
+*  *Abstraction Stream*: são usadas para processar dados de uma fonte (como uma lista) através de uma cadeia de operações (*pipeline*). O processamento ocorre por meio de operações intermediárias (como filter, map) e terminais (como reduce, sum), que são executadas de forma "preguiçosa" (lazy evaluation), ou seja, só quando a operação terminal é chamada. 
+O programador se concentra na lógica de transformação dos dados, enquanto a API gerencia a iteração, liberando o desenvolvedor da necessidade de escrever *loops* explícitos. 
+
+## 3. Fichamento de Citações
+
+*   *"The *Reactive Programming* (*RP*) paradigm has arisen as an approach to mitigate these problems. Yet, little evidence has been provided regarding the advantages of *RP*, and concerns have also arisen about the *API* usability of *RP* libraries given their disparate number of operators."*
+*   *"Results reveal that, in spite of its *API* size, the great majority of the *Rx* operators are actually being used (95.2%), with only a few, mostly related to *RxJava*, not being utilized."*
+*   *"Also, we unveil 23 topics from *SO* with more posts concerning the *Stream Abstraction* (36.4%)."*
+*   *"*The most used operators mainly comprise core operators, while the least used ones are essentially composed of core variants*."*
+*   *"*Dependency Management* and *Introductory Questions* are among the most popular topics with the former having the greatest number of *views* and the latter presenting the highest *favorites* and *score*, on average. Problems regarding *Data Access* figure among the least popular."*
