@@ -1,17 +1,13 @@
 # Adoção e Uso de Virtual Threads em Projetos Open-Source Java: Um Estudo Empírico
 
-## Overleaf
-
-Acesse o manuscrito no Overleaf:[Overleaf — Manuscrito do TCC (leitura)](https://www.overleaf.com/read/ptfsyywpkbpr#552961)
-
-Acesse o manuscrito no Overleaf até Introudução: [Overleaf — Manuscrito do TCC (leitura)](https://www.overleaf.com/read/ptfsyywpkbpr#552961)
-
 ## Descrição
-Este trabalho de conclusão de curso investiga empiricamente o impacto da introdução das *Virtual Threads* no ecossistema Java. Incorporadas como funcionalidade estável no **JDK 21**, elas foram concebidas para otimizar a utilização de recursos em aplicações **intensivas em operações de entrada e saída (I/O-bound)**, buscando aumentar o *throughput* e facilitar a construção de aplicações escaláveis.
+Este Trabalho de Conclusão de Curso (TCC) é um **estudo empírico** focado na investigação da **adoção contemporânea e do uso das *Virtual Threads* (VTs)** em projetos Java *open-source*.
 
-A pesquisa explora como essa nova abstração de concorrência é empregada em projetos **open-source Java**, analisando casos de uso, cenários de eficiência e possíveis limitações quando comparadas às *threads* tradicionais. Além de medir aspectos como **desempenho e consumo de recursos**, o estudo avalia a aplicabilidade prática das *Virtual Threads* em **aplicações orientadas a banco de dados em nuvem**, contexto em que há carência de investigações acadêmicas recentes.
+As VTs, estabilizadas no **JDK 21**, foram concebidas para conciliar a programação síncrona com alta concorrência e baixo custo por tarefa. Elas buscam **melhorar o desempenho, a eficiência e a racionalização de recursos**, otimizando o uso de CPU e memória e aumentando a **taxa de transferência (*throughput*)** em aplicações **intensivas em operações de entrada/saída (I/O-bound)**.
 
-Ao fornecer **dados quantitativos e análises comparativas**, este trabalho contribui para uma área emergente da engenharia de software experimental, oferecendo subsídios tanto para pesquisadores quanto para desenvolvedores que buscam compreender os efeitos da adoção de *Virtual Threads* em arquiteturas modernas.
+O estudo é motivado pela **escassez de um panorama empírico consolidado** sobre a adoção das VTs, especialmente em cenários realistas, como em **aplicações orientadas a banco de dados na nuvem**.
+
+O objetivo central é investigar e categorizar a **prevalência** de VTs em relação às *threads* de plataforma, identificar seus **padrões de uso**, e analisar os **fatores associados à adoção** (como *frameworks*, versões do JDK e bibliotecas de E/S). Os resultados esperados visam orientar decisões de engenharia, fornecendo dados para apoiar a **automação, eficiência e uso de recursos** no desenvolvimento de *software*.
 
 ## Aluno integrante da equipe
 
